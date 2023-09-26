@@ -1,0 +1,65 @@
+Term,Definition
+Function,In Python a function is a group of related statements that perform a specific task Functions help break our program into smaller and modular chunks promoting code reusability and readability
+Variable,Variables in Python are memory references to store data values which means when you create a variable you reserve some memory space The data stored can be of various types including numbers strings lists and more
+String,In Python a string is a sequence of Unicode characters They are immutable meaning that their content can't be changed after the string is created
+List,Lists in Python represent ordered sequences of values They are mutable meaning elements inside a list can be changed after the list is created
+Dictionary,Dictionaries in Python are unordered collections of key-value pairs Each key must be unique and the keys are used to access the corresponding values
+Loop,Loops allow for a set of instructions to be executed repeatedly based on a condition or a sequence of data Common loops in Python include the 'for' and 'while' loops
+Class,In object-oriented programming a class defines a blueprint for creating objects (a particular data structure) providing initial values for its attributes and implementations of behavior (functions or methods)
+Module,A module in Python refers to a single file containing Python statements and definitions Modules are a way to logically organize the Python code
+Exception,Exceptions in Python are unexpected events that occur during the execution of a program They disrupt the normal flow of the program and if not handled will terminate the program
+Tuple,A tuple in Python is similar to a list The difference between the two is that tuples are immutable meaning their elements cannot be modified after they are created
+Set,A set is an unordered collection of items in Python Every element is unique (no duplicates) and must be immutable (cannot be changed)
+Lambda,Lambda functions are small anonymous functions defined using the lambda keyword in Python They can have any number of arguments but can only have one expression
+File Handling,File handling in Python involves creating reading updating or deleting files Python provides built-in functions and methods for this purpose
+List Comprehension,List comprehensions provide a concise way to create lists They consist of an expression followed by a 'for' clause and can have zero or more 'if' clauses
+Slice,Slicing in Python refers to obtaining a subset of elements from an iterable based on start and stop indices
+Global Variables,Global variables are variables declared outside any function and they can be accessed from any function in the program
+Recursion,Recursion is a common programming technique wherein a function calls itself in order to solve a bigger problem in terms of smaller problems
+Decorator,Decorators in Python are design patterns that allow you to add new functionality to an existing object without modifying its structure They are a powerful tool for extending function or method behavior
+Threading,Threading allows for concurrent execution of tasks In Python threading is achieved using the 'threading' module enabling multitasking
+Property,In Python properties allow for the customization of access to instance data It’s a way to create setters getters and delete methods for an attribute in a class
+Generators,Generators are a type of iterable in Python Unlike lists they produce items lazily and don't store the complete list in memory
+Map & Filter,Map applies a function to all items in an input list and filter constructs a list from those elements of the list for which a function returns true
+Metaclass,Metaclasses are classes of classes in Python They define how a new class is created and allow customization of class creation
+Context Manager,A context manager in Python manages the resources like files or network connections ensuring that they are properly acquired and released typically used with the 'with' keyword
+List Methods,List methods are the functions provided by Python to perform operations on lists such as appending counting or removing items
+F-strings,Introduced in Python 36 f-strings (formatted string literals) allow for embedded Python expressions inside string literals using curly braces
+Conditional Expressions,Also known as a ternary operator conditional expressions allow to return a value based on the truthiness of a Python expression
+Docstrings,Docstrings are multi-line strings used right after the definition of a function method class or module They provide a convenient way to associate documentation with Python objects
+Virtual Environment,A virtual environment is an isolated runtime environment that allows users to install packages locally avoiding potential conflicts with system-wide packages
+Memory Management,Python uses a combination of a reference counting and a cyclic garbage collector to manage memory and remove objects that are no longer referenced
+Dunder Methods,These are special methods in Python with double underscores at the beginning and end of their names like `__init__` and `__str__` allowing for custom behaviors of built-in operations
+Assert,The 'assert' keyword tests if a condition in your code returns True and if not the program will raise an AssertionError with an optional error message
+Nesting,Nesting means defining something inside something else like defining functions inside functions or loops inside loops
+Bytecode,Bytecode is the intermediate representation of source code that is executed by the Python interpreter
+Garbage Collection,Garbage collection is the way Python manages memory automatically by clearing unreferenced objects ensuring efficient use of memory
+Namespaces,A namespace in Python ensures that object names in a program are unique and can be used without any conflict
+Dynamic Typing,In Python the type of a variable is determined at runtime not in advance This means for instance a variable can be assigned as a number and then reassigned as a string
+Slicing,This is a feature that enables accessing parts of sequences like strings tuples and lists
+Enumeration,The enumerate function adds a counter to an iterable and returns an enumerate object
+Packages,Packages are a way of structuring Python’s module namespaces by using “dotted module names”
+Input & Output,This pertains to reading from and writing to the console or a file
+Mutable & Immutable,These terms differentiate Python objects based on whether their content can be changed after creation
+Boolean Logic,This deals with evaluating expressions that return either true or false
+Inheritance,This is a feature of object-oriented programming where a class (child class) inherits properties and behavior from another class (parent class)
+Regular Expressions,Regular expressions are sequences of characters that form search patterns They can be used to search edit or manipulate text
+Closures,A closure in Python is a function object that remembers values even if they are not present in memory They are used in function factories
+List Sorting,This refers to arranging elements of a list in a certain order (ascending or descending)
+Stacks & Queues,These are data structures that follow the LIFO (Last In First Out) and FIFO (First In First Out) principles respectively
+Path Handling,Working with file and directory paths
+Array,An array is a data structure that stores values of the same data type
+Polymorphism,This allows objects of different classes to be treated as objects of a common superclass
+Python Shell,This is the interactive interpreter interface to Python
+Dictionary Methods,These are methods attached to dictionary objects allowing operations like retrieval updation or deletion of key-value pairs
+Unicode,This is an international encoding standard that represents text in computers
+Multiple Assignment,This refers to assigning multiple variables simultaneously in one statement
+Descriptors,Descriptors are Python objects that implement a method of an object's attribute access
+Data Model,This refers to the architecture or layout where Python objects are organized and manipulated
+Scope & Lifetime,These terms relate to the availability of a variable and the duration for which the variable exists in the memory
+Error Types,These refer to various errors that can occur in Python like SyntaxError ValueError and TypeError
+Bitwise Operators,These operators act on operands as if they were strings of binary digits They operate bit by bit
+Object Introspection,This involves examining the type or properties of objects at runtime
+List vs Tuple,This is a comparison between two data structures in Python the list (which is mutable) and the tuple (which is immutable)
+JSON Handling,This pertains to how Python reads or writes data in JSON format
+Pass Statement,This is a null operation a place holder often used where code will eventually go but has not been written yet
